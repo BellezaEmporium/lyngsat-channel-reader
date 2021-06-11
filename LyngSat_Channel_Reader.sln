@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metier", "Metier\Metier.csproj", "{BB220CD7-D7D9-46E3-A8EE-2C52C7FEDC59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vueGraphique", "vueGraphique\vueGraphique.csproj", "{7AB735F9-EE43-4157-925B-BC38D231C65C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB220CD7-D7D9-46E3-A8EE-2C52C7FEDC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB220CD7-D7D9-46E3-A8EE-2C52C7FEDC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB220CD7-D7D9-46E3-A8EE-2C52C7FEDC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB220CD7-D7D9-46E3-A8EE-2C52C7FEDC59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB735F9-EE43-4157-925B-BC38D231C65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB735F9-EE43-4157-925B-BC38D231C65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB735F9-EE43-4157-925B-BC38D231C65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB735F9-EE43-4157-925B-BC38D231C65C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C324ADE-D2E5-42DF-9576-DAF9B18CFE40}
+	EndGlobalSection
+EndGlobal

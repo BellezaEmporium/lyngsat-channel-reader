@@ -1,0 +1,23 @@
+﻿<Window x:Class="vueGraphique.MenuPrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Lyngsat Channel Reader" Height="450" Width="799"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="12"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}" 
+        FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+        <TextBlock Margin="10,29,419,312" TextWrapping="Wrap" TextAlignment="Center" Grid.Row="0"><Run Language="fr-fr" Text="Lyngsat Channels"/></TextBlock>
+        <DataGrid Name="Channels" Margin="10,57,10,10">
+            <DataGrid.Columns>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Margin="385,23,10,358" Content="Open file" Click="Button_Click"></Button>
+    </Grid>
+</Window>
