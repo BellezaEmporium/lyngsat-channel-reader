@@ -7,7 +7,7 @@ namespace Metier
 {
     public class Controller
     {
-        // Takes care of the multithreaded file reading execution.
+        // Takes care of the file reading.
         public static List<LyngSatStructure> ReadFile(string filePath)
         {
             var fichierATraiter = File.ReadAllLines(filePath, Encoding.UTF8);
